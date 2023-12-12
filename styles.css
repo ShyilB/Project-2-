@@ -1,0 +1,26 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Header styles */
+header {
+  background-color: lightblue;
+  color: #fff;
+  color: lightblue;
+  text-align: center;
+  padding: 20px;
+}
+@@ -47,7 +47,7 @@ article, aside {
+/* Footer styles */
+footer {
+  background-color: pink;
+  color: #fff;
+  color: pink;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+} 
