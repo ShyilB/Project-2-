@@ -1,75 +1,53 @@
+/* Reset CSS */
+html,
+body,
+div,
+span,
+h1,
+h2,
+p,
+img,
+ul,
+ol,
+li,
+form,
+input,
+textarea,
+button,
+header,
+footer,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
+/* Apply your existing styles after the reset */
 h1 {
-    margin-top: 0px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 3rem;
-    letter-spacing: 0.15rem;
-    text-transform: uppercase;
-    color: #fff;
-    text-shadow: -4px 4px #ef3550,
-        -8px 8px #f48fb1,
-        -12px 12px #7e57c2,
-        -16px 16px #2196f3,
-        -20px 20px #26c6da,
-        -24px 24px #43a047,
-        -28px 28px #eeff41,
-        -32px 32px #f9a825,
-        -36px 36px #ff5722;
-    text-align: center;
-    font-family: 'Lobster Two', cursive;
-    font-size: 65px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550, -8px 8px #f48fb1, -12px 12px #7e57c2, -16px 16px #2196f3, -20px 20px #26c6da, -24px 24px #43a047, -28px 28px #eeff41, -32px 32px #f9a825, -36px 36px #ff5722;
+  font-family: 'Lobster Two', cursive;
+  font-size: 65px;
 }
 
 h2 {
-    font-family: 'Lobster Two', cursive;
+  font-family: 'Lobster Two', cursive;
 }
-
 
 .posts {
-
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    text-align: center;
-
-
-}
-
-img {
-    width: 300px;
-    height: 300px;
-    border: 8px double black;
-}
-
-.input {
-    display: flex;
-    justify-content: center;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-}
-
-input {
-    width: 300px;
-    text-align: center;
-}
-
-
-.likes {
-    border: 5px black solid;
-    border-radius: 15px;
-    padding: 5px;
-    position: absolute;
-}
-
-.liked-photo {
-    position: relative;
-}
-
-Body {
-    background-color: #dcd0ff;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  text-align: center;
 }
