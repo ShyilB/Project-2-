@@ -1,26 +1,50 @@
-/* Body styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+h1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        -20px 20px #26c6da,
+        -24px 24px #43a047,
+        -28px 28px #eeff41,
+        -32px 32px #f9a825,
+        -36px 36px #ff5722;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 65px;
 }
-/* Header styles */
-header {
-  background-color: lightblue;
-  color: #fff;
-  color: lightblue;
-  text-align: center;
-  padding: 20px;
+
+h2 {
+    font-family: 'Lobster Two', cursive;
 }
-@@ -47,7 +47,7 @@ article, aside {
-/* Footer styles */
-footer {
-  background-color: pink;
-  color: #fff;
-  color: pink;
-  text-align: center;
-  padding: 10px;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-} 
+
+
+
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 8px double black;
+}
+
+
+
+
+input {
+    width: 300px;
+    text-align: center;
+}
+
+
+
+
+Body {
+    background-color: #dcd0ff;
+}
