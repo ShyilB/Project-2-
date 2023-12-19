@@ -1,53 +1,60 @@
-/* Reset CSS */
-html,
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Margin and padding reset */
 body,
-div,
-span,
 h1,
 h2,
+h3,
+h4,
+h5,
+h6,
 p,
-img,
 ul,
 ol,
-li,
+dl,
+figure,
+blockquote,
+fieldset,
+pre,
+hr,
 form,
+table,
 input,
 textarea,
-button,
-header,
-footer,
-nav,
-section {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+th,
+td {
+    margin: 0;
+    padding: 0;
 }
 
-/* Apply your existing styles after the reset */
-h1 {
-  margin-top: 0;
-  margin-bottom: 50px;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 3rem;
-  letter-spacing: 0.15rem;
-  text-transform: uppercase;
-  color: #fff;
-  text-shadow: -4px 4px #ef3550, -8px 8px #f48fb1, -12px 12px #7e57c2, -16px 16px #2196f3, -20px 20px #26c6da, -24px 24px #43a047, -28px 28px #eeff41, -32px 32px #f9a825, -36px 36px #ff5722;
-  font-family: 'Lobster Two', cursive;
-  font-size: 65px;
+/* Typography reset */
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif; /* Set a default font-family */
 }
 
-h2 {
-  font-family: 'Lobster Two', cursive;
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
 }
 
-.posts {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-  text-align: center;
+/* Remove default hyperlink styles */
+a {
+    text-decoration: none;
+    color: inherit;
 }
+
+/* Remove default button styles */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+} 
